@@ -5,7 +5,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import MobileNet
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
-from google.colab import drive
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
